@@ -38,3 +38,6 @@ Run ```extract_lockscreen_wallpaper.ps1``` under ```scripts``` folder
 
 # Remove visual studio right click option
 Merge the ```remove_open_vs_option.reg``` from ```regs```
+
+# Install latest STMicroelectronics 3-Axis Digital Accelerometer driver for Windows 10 1803+
+When updating to 1803 and later, the STMicroelectronics 3-Axis driver from Dell's website did not work properly, so we need a new WHQL driver to resolve this issue.
