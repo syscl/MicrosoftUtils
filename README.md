@@ -1,5 +1,9 @@
-# Win2Use
-- A document notes userful optimizations and tunning for crap Windows.
+# Microsoft Utilities
+- A repo to make Microsoft crap easy to use
+
+# Reset/clean Microsoft 365 completely on macOS
+
+Microsoft 365 cannot login to personal account even with reinstalling, this requires a complete clean up in the system. To achieve it, just execute the `clean_ms365_mac.py` on your macOS.
 
 # Disable memory compression 
 A direct way to disable memory compression is by disabling the whole superfetch function at once, however, with large memory space on modern laptops nowadays, it is better to keep superfetch on while memory compression off. Because memory compression not only give pressure to CPU but always hits the performance of the system, shorten the battery life, thus I would recommend disable only memory compression feature in powershell by ```Disable-MMAgent```, the options are as following:
