@@ -45,3 +45,6 @@ Merge the ```remove_open_vs_option.reg``` from ```regs```
 
 # Install latest STMicroelectronics 3-Axis Digital Accelerometer driver for Windows 10 1803+
 When updating to 1803 and later, the STMicroelectronics 3-Axis driver from Dell's website did not work properly, so we need a new WHQL driver to resolve this issue.
+
+# Update Windows 10 to Windows 11 without minimal hardware restriction
+The easy path reference tools: [MediaCreationTool.bat](https://github.com/AveYo/MediaCreationTool.bat), [Windows11Upgrade](https://github.com/coofcookie/Windows11Upgrade). I used the `MediaCreationTool` to download the ISO, then use `Windows11Upgrade` to load the ISO then update.
