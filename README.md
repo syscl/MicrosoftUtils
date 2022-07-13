@@ -48,3 +48,6 @@ When updating to 1803 and later, the STMicroelectronics 3-Axis driver from Dell'
 
 # Update Windows 10 to Windows 11 without minimal hardware restriction
 The easy path reference tools: [MediaCreationTool.bat](https://github.com/AveYo/MediaCreationTool.bat), [Windows11Upgrade](https://github.com/coofcookie/Windows11Upgrade). I used the `MediaCreationTool` to download the ISO, then use `Windows11Upgrade` to load the ISO then update.
+
+# Install Acrobat Reader DC to another partition
+- Download and install the [enterprise version](http://get.adobe.com/reader/enterprise/)
