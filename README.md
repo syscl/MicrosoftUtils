@@ -1,6 +1,15 @@
 # Microsoft Utilities
 - A repo to make Microsoft crap easy to use
 
+# Remove Edge from macOS completely (refer [here](https://www.reddit.com/r/MicrosoftEdge/comments/1166b9k/how_to_remove_edge_from_mac_completely/))
+One may find that Edge has many residue on the system, you cannot uninstall it completely. Here's how to remove it completely:
+- Drag the `Microsoft Edge` to trash then remove it
+- Delete itmes:
+```
+sudo rm -rf /Library/Application\ Suport/Microsoft/MAU2.0
+for file in "/Library/Application Suport/Microsoft/MAU2.0" "~/Library/Application Support/Microsoft" "~/Library/Application Support/Microsoft Edge" "/Library/LaunchAgents/com.microsoft/update/agent.plist" "/Library/LaunchDaemons/com.microsoft/autoupdate.helper.plist" sudo rm -rf $file  
+```
+
 # Reset/clean Microsoft 365 completely on macOS
 
 Microsoft 365 cannot login to personal account even with reinstalling, this requires a complete clean up in the system. To achieve it, just execute the `clean_ms365_mac.py` on your macOS.
