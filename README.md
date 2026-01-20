@@ -75,7 +75,7 @@ For 32-bit NVIDIA Graphics Firmware Update Tool for DisplayPort 1.3 and 1.4, ple
 When updating to 1803 and later, the STMicroelectronics 3-Axis driver from Dell's website did not work properly, so we need a new WHQL driver to resolve this issue.
 
 # Update Windows 10 to Windows 11 without minimal hardware restriction
-The easy path reference tools: [MediaCreationTool.bat](https://github.com/AveYo/MediaCreationTool.bat), [Windows11Upgrade](https://github.com/coofcookie/Windows11Upgrade). I used the `MediaCreationTool` to download the ISO, then use `Windows11Upgrade` to load the ISO then update.
+[Tips2Fix-Windows11-Installer](https://github.com/tips2fix/Tips2Fix-Windows11-Installer) that can bring you to Win 11 25H2
 
 # Install Acrobat Reader DC to another partition
 - Download and install the [enterprise version](http://get.adobe.com/reader/enterprise/)
